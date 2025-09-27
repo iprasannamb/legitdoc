@@ -2,7 +2,8 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { CircleCheckIcon,CloudUpload , CircleHelpIcon, CircleIcon } from "lucide-react"
+// import { CircleCheckIcon,CloudUpload , CircleHelpIcon, CircleIcon } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 import {
   NavigationMenu,
@@ -23,7 +24,7 @@ const components= [
   },
   {
     title: "Intractive AI",
-    href: "/q&a",
+    href: "/qna",
     description:
       "Converse directly with your legal document using natural language.",
   },
@@ -52,7 +53,7 @@ export default function Nav() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introduction">
+              <ListItem href="/intro" title="Introduction">
                 legitDoc AI empowering people to understand their rights and obligations with confidence.
               </ListItem>
               {/* <ListItem href="/docs/installation" title="Installation">
@@ -162,6 +163,10 @@ export default function Nav() {
         </NavigationMenuItem> */}
         
       </NavigationMenuList>
+<Button variant="link" className={'cursor-pointer'} onClick={(e)=>{
+  
+}}>Profile</Button>
+{/* <button href /> */}
     </NavigationMenu>
   )
 }
