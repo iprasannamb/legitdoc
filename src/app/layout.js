@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Icon, icons } from "lucide-react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "legitDoc",
   description: "AI for Demystifying Legal Documents",
+  icons:{
+    icon:'/'
+  }
 };
 
 export default function RootLayout({ children }) {
