@@ -24,5 +24,4 @@ This project provides an AI-powered solution that transforms complex legal docum
 - **Deployment:** Docker + Cloud-native services  
 - **Data Processing:** NLP pipelines for text cleaning & preprocessing  
 
----
 
