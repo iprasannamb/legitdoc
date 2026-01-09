@@ -4,6 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 // import { CircleCheckIcon,CloudUpload , CircleHelpIcon, CircleIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/ThemeToggle"
 
 import {
   NavigationMenu,
@@ -163,10 +164,12 @@ export default function Nav() {
         </NavigationMenuItem> */}
         
       </NavigationMenuList>
-<Button variant="link" className={'cursor-pointer'} onClick={(e)=>{
-  
-}}>Profile</Button>
-{/* <button href /> */}
+      <div className="flex items-center gap-2">
+        <ThemeToggle />
+        <Button variant="link" className={'cursor-pointer'} onClick={(e)=>{
+          
+        }}>Profile</Button>
+      </div>
     </NavigationMenu>
   )
 }
