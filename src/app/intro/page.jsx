@@ -60,12 +60,12 @@ export default function IntroPage() {
     }
   ];
 
-  const stats = [
-    { value: "10K+", label: "Documents Analyzed" },
-    { value: "98%", label: "Accuracy Rate" },
-    { value: "5min", label: "Average Analysis Time" },
-    { value: "24/7", label: "Available" }
-  ];
+  // const stats = [
+  //   { value: "10K+", label: "Documents Analyzed" },
+  //   { value: "98%", label: "Accuracy Rate" },
+  //   { value: "5min", label: "Average Analysis Time" },
+  //   { value: "24/7", label: "Available" }
+  // ];
 
   return (
     <div className="min-h-screen bg-background">
@@ -107,7 +107,7 @@ export default function IntroPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="border-y border-border bg-muted/30">
+      {/* <section className="border-y border-border bg-muted/30">
         <div className="max-w-6xl mx-auto px-6 py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -118,7 +118,7 @@ export default function IntroPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Features Section */}
       <section className="max-w-6xl mx-auto px-6 py-20">
