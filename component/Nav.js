@@ -57,9 +57,6 @@ export default function Nav() {
               <ListItem href="/intro" title="Introduction">
                 legitDoc AI empowering people to understand their rights and obligations with confidence.
               </ListItem>
-              {/* <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
-              </ListItem> */}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
