@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  web:
+    container_name: legitdoc-web
+    build: .
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
