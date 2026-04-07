@@ -16,11 +16,3 @@ This project provides an AI-powered solution that transforms complex legal docum
 
 ---
 
-##  Tech Stack  
-
-- **Language Model:** Generative AI (LLM-based)  
-- **Backend:** FastAPI   
-- **Frontend:** React 
-- **Data Processing:** NLP pipelines for text cleaning & preprocessing  
-
-
