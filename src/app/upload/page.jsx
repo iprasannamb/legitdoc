@@ -85,7 +85,7 @@ export default function Page() {
 
   return (
     <div className="container mx-auto p-6 max-w-4xl">
-      <h1 className="text-3xl font-bold mb-6 text-center">Upload Your Document</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Upload Your Document(s)/h1>
       
       {/* File Input Section */}
       <div className="mb-6">
